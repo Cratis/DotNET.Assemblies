@@ -7,7 +7,7 @@ using System.Reflection;
 namespace Cratis.Assemblies
 {
     /// <summary>
-    /// Defines a system that knows about <see cref="ICanSpecifyAssembly"/>
+    /// Defines a system that knows about <see cref="ICanSpecifyAssemblies"/>
     /// </summary>
     public interface IAssemblySpecifiers
     {
