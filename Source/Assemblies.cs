@@ -22,7 +22,9 @@ namespace Cratis.Assemblies
         public Assemblies(IAssemblyProvider assemblyProvider)
         {
             _assemblyProvider = assemblyProvider;
-            _assemblies = new Assembly[0];
+            _assemblies = assemblyProvider
+                .GetAllByName()
+                .Select(assemblyName=>assemblyProvider.Load(assemblyName)).ToArray();
         }
 
 #pragma warning disable 1591 // Xml Comments
