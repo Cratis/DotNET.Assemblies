@@ -1,10 +1,12 @@
 {
-    "name":"Cratis.Assemblies",
     "version": "1.0.0-*",
     "description": "",
     "authors": [
         "Einar Ingebrigtsen <einar@dolittle.com>"
     ],
+    "buildOptions": {
+        "outputName": "Cratis.Assemblies"
+    },
     "dependencies": {
         "Microsoft.NETCore.App": {
             "type": "platform",
