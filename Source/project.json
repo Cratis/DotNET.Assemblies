@@ -1,6 +1,6 @@
 {
     "version": "1.0.0-*",
-    "description": "",
+    "description": "Provides abstractions for discovering and working with assemblies",
     "authors": [
         "Einar Ingebrigtsen <einar@dolittle.com>"
     ],
